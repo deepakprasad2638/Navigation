@@ -1,0 +1,52 @@
+/* img
+    {
+        margin-top: 20px;
+        position: relative;
+        position: absolute;
+        position: sticky;
+        top: 0px;
+        left: 0px;
+    } */
+body
+    {
+        margin: 0px;
+        padding: 0px;
+        /* background-color: black; */
+    }
+
+nav 
+    {
+        background-color: deeppink;
+    }
+#cont
+    {
+        display: flex;
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+    }
+a
+    {
+        text-decoration: none;
+        color: aliceblue;
+        padding: 20px;
+        display: block;
+    }
+a:hover
+    {
+        background-color: orange;
+        color: white;
+    }
+#menu
+    {
+        list-style: none;
+        padding: 0;
+        position: absolute;
+        display: none;
+        
+    }
+#drop:hover #menu
+    {
+        display: block;
+    }
+   
