@@ -1,0 +1,69 @@
+body
+    {
+        margin: 0;
+        padding: 0;
+        font-family: 'Carattere', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Lora', serif;
+    }
+main
+    {
+        display: flex;
+        justify-content: center;
+        /* background-color: black; */
+    }
+#cont
+    {
+        /* background-color: yellow; */
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+    }
+#cont > div
+    {
+        width: 30%;
+        background-color: black;
+        overflow: hidden;
+
+    }
+#cont > div > img   
+    {
+        width: 100%;
+        height: 300px;
+        transition: 2s;
+    }
+#cont > div > h3
+    {
+        text-align: center;
+        font-size: 30px;
+        color: antiquewhite;
+        letter-spacing: 5px;
+    }
+#cont > div > h4    
+    {
+        padding-left: 20px;
+        color: aquamarine;
+        font-size: 20px;
+    }
+#cont > div > button
+    {
+        width: 100%;
+        height: 5%;
+        background-color: chocolate;
+        border: none;
+        color: turquoise;
+        font-size: 20px;
+    }
+#cont > div > img:hover
+    {
+        transform: scale(1.2);
+    }
+#cont > div > .pr
+    {
+        /* width: 100%; */
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
